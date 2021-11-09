@@ -1,0 +1,25 @@
+.first-input{
+    width: 175px;
+    margin-left: 47px;
+}
+
+.students-list{
+    display: flex;
+    align-items: center;
+}
+
+.full-name{
+    width: 165px;
+}
+
+.second-input{
+    margin-left: 20px;
+}
+
+.btn{
+    margin-left: 20px;
+}
+
+.selected-student{
+    color: red;
+}
