@@ -10,25 +10,7 @@
 </head>
 
 <body>
-    <div id="app">
-
-        <table>
-            <tr v-for="(student, index) in studentsList">
-                <td>{{student.name}}</td>
-                <td><input type="checkbox" v-model="student.isDonePr"></td>
-
-                <td><button class="btn" v-on:click="btnDelete(index)">Удалить</button></td>
-            </tr>
-        </table>
-
-        <br>
-        <input v-model="addForm.name">
-        <input type="checkbox" v-model="addForm.isDonePr">
-
-        <button @click="addStudent()">Добавить</button>
-    </div>
-
-    <script src="main.js" defer></script>
+    <div id="app"></div>
+    <script src="main.js"></script>
 </body>
-
 </html>
